@@ -13,6 +13,8 @@
 		16E574F01ADFA57D00C504DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16E574EF1ADFA57D00C504DB /* Images.xcassets */; };
 		16E574F31ADFA57D00C504DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16E574F11ADFA57D00C504DB /* LaunchScreen.xib */; };
 		16E574FF1ADFA57D00C504DB /* RevivalxHanekeSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E574FE1ADFA57D00C504DB /* RevivalxHanekeSwiftTests.swift */; };
+		16E575151ADFABB300C504DB /* Haneke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16E575101ADFAAF700C504DB /* Haneke.framework */; };
+		16E575161ADFABB300C504DB /* Haneke.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 16E575101ADFAAF700C504DB /* Haneke.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +25,49 @@
 			remoteGlobalIDString = 16E574E21ADFA57D00C504DB;
 			remoteInfo = RevivalxHanekeSwift;
 		};
+		16E5750F1ADFAAF700C504DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16E575081ADFAAF600C504DB /* Haneke.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A095C9561980418C00CD0F4C;
+			remoteInfo = Haneke;
+		};
+		16E575111ADFAAF700C504DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16E575081ADFAAF600C504DB /* Haneke.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A095C9611980418C00CD0F4C;
+			remoteInfo = HanekeTests;
+		};
+		16E575131ADFAAF700C504DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16E575081ADFAAF600C504DB /* Haneke.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A0026E9A19C9BFBC004DE0C6;
+			remoteInfo = HanekeDemo;
+		};
+		16E575171ADFABB300C504DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16E575081ADFAAF600C504DB /* Haneke.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A095C9551980418C00CD0F4C;
+			remoteInfo = Haneke;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		16E575191ADFABB300C504DB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				16E575161ADFABB300C504DB /* Haneke.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		16E574E31ADFA57D00C504DB /* RevivalxHanekeSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RevivalxHanekeSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +80,7 @@
 		16E574F81ADFA57D00C504DB /* RevivalxHanekeSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevivalxHanekeSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16E574FD1ADFA57D00C504DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16E574FE1ADFA57D00C504DB /* RevivalxHanekeSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevivalxHanekeSwiftTests.swift; sourceTree = "<group>"; };
+		16E575081ADFAAF600C504DB /* Haneke.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Haneke.xcodeproj; path = HanekeSwift/Haneke.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16E575151ADFABB300C504DB /* Haneke.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +105,7 @@
 		16E574DA1ADFA57D00C504DB = {
 			isa = PBXGroup;
 			children = (
+				16E575081ADFAAF600C504DB /* Haneke.xcodeproj */,
 				16E574E51ADFA57D00C504DB /* RevivalxHanekeSwift */,
 				16E574FB1ADFA57D00C504DB /* RevivalxHanekeSwiftTests */,
 				16E574E41ADFA57D00C504DB /* Products */,
@@ -112,6 +159,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		16E575091ADFAAF600C504DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16E575101ADFAAF700C504DB /* Haneke.framework */,
+				16E575121ADFAAF700C504DB /* HanekeTests.xctest */,
+				16E575141ADFAAF700C504DB /* HanekeDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +179,12 @@
 				16E574DF1ADFA57D00C504DB /* Sources */,
 				16E574E01ADFA57D00C504DB /* Frameworks */,
 				16E574E11ADFA57D00C504DB /* Resources */,
+				16E575191ADFABB300C504DB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				16E575181ADFABB300C504DB /* PBXTargetDependency */,
 			);
 			name = RevivalxHanekeSwift;
 			productName = RevivalxHanekeSwift;
@@ -179,6 +238,12 @@
 			mainGroup = 16E574DA1ADFA57D00C504DB;
 			productRefGroup = 16E574E41ADFA57D00C504DB /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 16E575091ADFAAF600C504DB /* Products */;
+					ProjectRef = 16E575081ADFAAF600C504DB /* Haneke.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				16E574E21ADFA57D00C504DB /* RevivalxHanekeSwift */,
@@ -186,6 +251,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		16E575101ADFAAF700C504DB /* Haneke.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Haneke.framework;
+			remoteRef = 16E5750F1ADFAAF700C504DB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		16E575121ADFAAF700C504DB /* HanekeTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = HanekeTests.xctest;
+			remoteRef = 16E575111ADFAAF700C504DB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		16E575141ADFAAF700C504DB /* HanekeDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = HanekeDemo.app;
+			remoteRef = 16E575131ADFAAF700C504DB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		16E574E11ADFA57D00C504DB /* Resources */ = {
@@ -232,6 +321,11 @@
 			isa = PBXTargetDependency;
 			target = 16E574E21ADFA57D00C504DB /* RevivalxHanekeSwift */;
 			targetProxy = 16E574F91ADFA57D00C504DB /* PBXContainerItemProxy */;
+		};
+		16E575181ADFABB300C504DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Haneke;
+			targetProxy = 16E575171ADFABB300C504DB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -336,7 +430,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = RevivalxHanekeSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -346,7 +442,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = RevivalxHanekeSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
