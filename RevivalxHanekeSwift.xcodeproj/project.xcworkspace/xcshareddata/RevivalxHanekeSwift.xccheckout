@@ -24,11 +24,11 @@
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>38C2A0D4F62B675E8C16C8BC1437C7753846C8AC</key>
-		<string>../..HanekeSwift/HanekeTests/Submodules/</string>
+		<string>../..HanekeSwift/HanekeTests/Submodules</string>
 		<key>C93564C1AFB8B50FF58188F21182F5D0EEAD1C3F</key>
-		<string>../..HanekeSwift/</string>
+		<string>../..HanekeSwift</string>
 		<key>DD20A1A48C66B5213E0FEBB87A95EF51D6C6F3E8</key>
-		<string>../..HanekeSwift/HanekeTests/Submodules/OHHTTPStubs/UnitTests/AFNetworking/</string>
+		<string>../..HanekeSwift/HanekeTests/Submodules/OHHTTPStubs/UnitTests/AFNetworking</string>
 		<key>F4A11504B1B726BFBD6CBFA090A45C8AF25C39E2</key>
 		<string>../..</string>
 	</dict>
@@ -52,17 +52,17 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>C93564C1AFB8B50FF58188F21182F5D0EEAD1C3F</string>
+			<string>F4A11504B1B726BFBD6CBFA090A45C8AF25C39E2</string>
 			<key>IDESourceControlWCCName</key>
-			<string>HanekeSwift</string>
+			<string>RevivalxHanekeSwift</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>F4A11504B1B726BFBD6CBFA090A45C8AF25C39E2</string>
+			<string>C93564C1AFB8B50FF58188F21182F5D0EEAD1C3F</string>
 			<key>IDESourceControlWCCName</key>
-			<string>RevivalxHanekeSwift</string>
+			<string>RevivalxHanekeSwiftHanekeSwift</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
